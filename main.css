@@ -38,11 +38,20 @@
 	padding-top: 70px;
 }
 
-.second {
+/*.second {
 	background-image: url("Images/Amrita+1.jpg");
+	-webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    padding-top: 30px;
 }
 .show-description p {
   height: 150px;
+}
+
+div {
+	background-size: cover;
+    max-width: 600px;
+    height: 450px;
 }
 
 .show-description small {

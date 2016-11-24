@@ -8,7 +8,7 @@
 	padding-top: 90px;
 	padding-bottom: 90px;
 	min-height: 400px;
-	background-image: url("spectra1.jpg");
+	background-image: url("Images/spectra1.jpg");
 	background-size: no-repeat;
     background-attachment: fixed;
 }
@@ -23,7 +23,7 @@
 }
 
 .carousel-control {
-  background-color: purple;
+  background-color: black;
 }
 
 #carousel_s {
@@ -32,4 +32,19 @@
 }
 
 .navbar-inverse {
+}
+
+#about_spectra {
+	padding-top: 70px;
+}
+
+.second {
+	background-image: url("Images/Amrita+1.jpg");
+}
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
 }

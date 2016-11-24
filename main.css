@@ -3,6 +3,33 @@
     width: 70%;
     margin: auto;
 }
-h1 {
-	color: red;
+
+.jumbotron {
+	padding-top: 90px;
+	padding-bottom: 90px;
+	min-height: 400px;
+	background-image: url("spectra1.jpg");
+	background-size: no-repeat;
+    background-attachment: fixed;
+}
+
+#intro_to_spectra {
+  font-family: 'Slabo 27px', serif;
+  color: rgb(210,210,210);
+}
+
+#myCarousel { 
+  background-color: black;
+}
+
+.carousel-control {
+  background-color: purple;
+}
+
+#carousel_s {
+  background-color: black;
+  margin-top: 0px;
+}
+
+.navbar-inverse {
 }

@@ -7,18 +7,26 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link href='bootstrap-3.3.7-dist/css/bootstrap.css' rel='stylesheet'>
     <link rel="stylesheet" type="text/css" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
   </head>
 
 <body>
 <!-- Navigation Bar -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Spectra Class Of</a>
-    </div>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Spectra Class Of</a>
+  </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">
-      <li class="active"><a href="#">Home</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">About<span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="about.html">What is Spectra Class Of?</a></li>
           <li><a href="#">What is Spectra?</a></li>
@@ -28,15 +36,21 @@
         <ul class="dropdown-menu">
           <li><a href="about.html">2017</a></li>
         </ul>
-      <li><a href="https://spectramedia.co/">Spectra</a></li>
-    </ul>
-  </div>
+          <li><a href="https://spectramedia.co/">Spectra</a></li>
+        </ul>
+      </li>
+    </div>
+  </ul>
 </nav>
 
-<h1>Spectra Class of 2017 is a project that aims to spread the stories of women of colour graduating from Oxford.</h1>
-  
+<div class="jumbotron">
+  <div id="intro_to_spectra" class="container">
+    <h1 class="text-center">Spectra Class of 2017 <small>is a project that aims to spread the stories of women of colour graduating from Oxford.</small></h1>
+  </div>
+</div>
+
+<div id="carousel_s">
 <div class="container">
-  <br>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -50,14 +64,24 @@
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="Amrita+1.jpg" alt="Amrita">
+        <div class="carousel-caption">
+          <h3>Amrita</h3>
+          <p>Subject</p>
+        </div>
       </div>
-
       <div class="item">
         <img src="Asta+1.jpg" alt="Asta">
+        <div class="carousel-caption">
+          <h3>Asta</h3>
+          <p>Subject</p>
+        </div>
       </div>
-    
       <div class="item">
         <img src="India+2.jpg" alt="India">
+        <div class="carousel-caption">
+          <h3>India</h3>
+          <p>Subject</p>
+        </div>
       </div>
     </div>
 
@@ -71,6 +95,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+</div>
 </div>
 
 

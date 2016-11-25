@@ -60,6 +60,8 @@
 
 <img id="img_Asta" src="Images/Asta+1.jpg" alt="Asta, Subject" width="300" height="200">
 
+<img id="img_India" src="Images/India+2.jpg" alt="India, Subject" width="300" height="200">
+
 <!-- The Modal -->
 <div id="myModal" class="modal">
   <span class="close">X</span>
@@ -90,6 +92,15 @@ img.onclick = function(){
 
 // Get the image and insert it inside the modal - use its "alt" text as a caption
 var img = document.getElementById('img_Asta');
+var modalImg = document.getElementById("img02");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('img_India');
 var modalImg = document.getElementById("img02");
 var captionText = document.getElementById("caption");
 img.onclick = function(){

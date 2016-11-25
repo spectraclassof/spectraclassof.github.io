@@ -4,18 +4,31 @@
     margin: auto;
 }
 
-.jumbotron {
-	padding-top: 90px;
-	padding-bottom: 90px;
-	min-height: 400px;
+#spectra_title {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	min-height: 316px;
 	background-image: url("Images/spectra1.jpg");
 	background-size: no-repeat;
     background-attachment: fixed;
+    margin-bottom: 0;
+    font-family: 'Slabo 27px', serif;
+    color: rgb(210,210,210);
+    font-family: 'Slabo 27px', serif;
 }
 
 #intro_to_spectra {
   font-family: 'Slabo 27px', serif;
-  color: rgb(210,210,210);
+  color: rgb(190,220,250);
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+#intro_to_spectra1 {
+	background-image: url("Images/charcoal-background.jpg");
+	background-size: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #myCarousel { 
@@ -24,6 +37,7 @@
 
 .carousel-control {
   background-color: black;
+  margin-top: 0px;
 }
 
 #carousel_s {
@@ -32,10 +46,28 @@
 }
 
 .navbar-inverse {
+	margin-bottom: 0;
 }
 
 #about_spectra {
-	padding-top: 70px;
+  padding-top: 70px;
+}
+
+#grid_2017 {
+  padding-top: 70px;
+}
+
+.affix {
+	position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.affix + .jumbotron {
+    padding-top: 100px;
+}
+.jumbotron {
+	margin: 0 0 0 0;
 }
 
 /*.second {

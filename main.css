@@ -47,6 +47,8 @@
 
 .navbar-inverse {
 	margin-bottom: 0;
+	background-color: black;
+	border-radius: 0px;
 }
 
 #about_spectra {

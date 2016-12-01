@@ -2,7 +2,7 @@
 	padding: 70px 30px 500px 30px;
 	text-align: left;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
-
+	background-color: #DCDCDC;
 }
 
 h2 {
@@ -12,10 +12,7 @@ h2 {
 .photo_wall {
 	height: 300px;
 	margin-left: 0px;
-}
-
-#about_spectra {
-	background-color: #DCDCDC;
+	padding-right: 10px;
 }
 
 #spectratable {

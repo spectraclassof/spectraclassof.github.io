@@ -1,5 +1,5 @@
 #about_spectra {
-	padding-top: 70px;
+	padding: 70px 30px 500px 30px;
 	text-align: left;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 
@@ -10,5 +10,16 @@ h2 {
 }
 
 .photo_wall {
-	height: 350px;
+	height: 300px;
+	margin-left: 0px;
+}
+
+#about_spectra {
+	background-color: #DCDCDC;
+}
+
+#spectratable {
+	float: right;
+    width: 600px;
+    margin: 0 20px 20px 20px;
 }

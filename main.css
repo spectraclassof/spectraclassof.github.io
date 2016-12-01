@@ -1,34 +1,35 @@
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
+  width: 70%;
+  margin: auto;
 }
 
 #spectra_title {
-	padding-top: 100px;
-	padding-bottom: 100px;
-	min-height: 316px;
-	background-image: url("Images/spectra1.jpg");
-	background-size: no-repeat;
-    background-attachment: fixed;
-    margin-bottom: 0;
-    font-family: 'Slabo 27px', serif;
-    color: rgb(210,210,210);
-    font-family: 'Slabo 27px', serif;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 316px;
+  background-image: url("Images/spectra1.jpg");
+  background-size: no-repeat;
+  background-attachment: fixed;
+  margin-bottom: 0;
+  color: rgb(210,210,210);
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 #intro_to_spectra {
-  font-family: 'Slabo 27px', serif;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   color: rgb(190,220,250);
   padding-top: 20px;
   margin-bottom: 0;
 }
 
 #intro_to_spectra1 {
-	background-image: url("Images/charcoal-background.jpg");
-	background-size: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url("Images/charcoal-background.jpg");
+  background-size: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  border-bottom-style: solid;
+  border-bottom-color: #5F9EA0;
 }
 
 #myCarousel { 
@@ -46,9 +47,9 @@
 }
 
 .navbar-inverse {
-	margin-bottom: 0;
-	background-color: black;
-	border-radius: 0px;
+  margin-bottom: 0;
+  background-color: black;
+  border-radius: 0px;
 }
 
 #about_spectra {
@@ -60,34 +61,15 @@
 }
 
 .affix {
-	position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .affix + .jumbotron {
-    padding-top: 100px;
+  padding-top: 100px;
 }
+
 .jumbotron {
-	margin: 0 0 0 0;
-}
-
-/*.second {
-	background-image: url("Images/Amrita+1.jpg");
-	-webkit-transition: height .5s;
-    -moz-transition: height .5s;
-    padding-top: 30px;
-}
-.show-description p {
-  height: 150px;
-}
-
-div {
-	background-size: cover;
-    max-width: 600px;
-    height: 450px;
-}
-
-.show-description small {
-  opacity: 1;
+  margin: 0 0 0 0;
 }

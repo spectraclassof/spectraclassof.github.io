@@ -1,0 +1,14 @@
+#about_spectra {
+	padding-top: 70px;
+	text-align: left;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+}
+
+h2 {
+	font-weight: bold;
+}
+
+.photo_wall {
+	height: 350px;
+}

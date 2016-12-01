@@ -1,6 +1,44 @@
 #sco17_intro {
-    margin-top: 70px;
-    background-color: red;
+    padding-top: 70px;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-bottom: 30px;
+    background-image: url("Images/spectra1.jpg");
+    background-attachment: fixed;
+    background-size: 900px 600px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    color: #DCDCDC;
+}
+
+.row {
+    background-color: black;
+    color: #DCDCDC;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-weight: bold;
+}
+
+p {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 1.1em;
+    letter-spacing: -1px;
 }
 
 #img_Amrita {
@@ -9,6 +47,11 @@
     transition: 0.3s;
     border-style: solid;
     border-width: 5px;
+    border-color: #ADFF2F;
+    width: 100%;
+    float: right;
+    width: 600px;
+    margin: 20px;
 }
 
 #img_Amrita:hover {opacity: 0.7;}
@@ -19,6 +62,11 @@
     transition: 0.3s;
     border-style: solid;
     border-width: 5px;
+    border-color: #008B8B;
+    width: 100%;
+    float: left;
+    width: 600px;
+    margin: 20px;
 }
 
 #img_Asta:hover {opacity: 0.7;}
@@ -29,6 +77,26 @@
     transition: 0.3s;
     border-style: solid;
     border-width: 5px;
+    border-color: #FFD700;
+    width: 100%;
+    float: right;
+    width: 600px;
+    margin: 20px;
+}
+
+#img_India:hover {opacity: 0.7;}
+
+#img_Sabreen {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #C71585;
+    width: 100%;
+    float: left;
+    width: 600px;
+    margin: 20px;
 }
 
 #img_India:hover {opacity: 0.7;}
